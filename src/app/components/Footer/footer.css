@@ -1,0 +1,206 @@
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+footer {
+  background-image: url(/background/background-black-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.footerContent {
+  width: 90vw;
+  margin: 30px 0;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+/* SECTION WIDGET */
+
+.contentAbout {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.descriptionAboutFooter p {
+  font-size: 14px;
+  color: #9d9d9d;
+}
+
+.sectionContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer .logo {
+  position: relative;
+  width: 140px;
+  height: 70px;
+}
+
+.redesSociais {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+
+.iconRedeSocial {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+
+.iconRedeSocial:hover {
+  transform: scale(1.1);
+  transition: all 100ms;
+}
+
+.titleFooterLinks,
+.titleAbout p {
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #cecece;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.links a {
+  color: #9d9d9d;
+  font-size: 14px;
+}
+
+.links a:hover {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+/* SECTION DIREITOS E PRIVACIDADE */
+
+.sectionDireitos {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: solid 1px #9d9d9d;
+  width: 100%;
+}
+
+.sectionDireitos p {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #9d9d9d;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1350px) {
+  .contentAbout {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 780px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sectionDireitos p {
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sectionDireitos p {
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    font-size: 12px;
+  }
+  .footer .logo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sectionDireitos p {
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sectionContent {
+    gap: 0;
+  }
+
+  .footer .logo {
+    display: none;
+  }
+}

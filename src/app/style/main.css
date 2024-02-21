@@ -1,0 +1,76 @@
+/* MAIN */
+.main {
+  padding: 0px 0px 50px 0px;
+  text-align: center;
+}
+
+.main .title_main {
+  padding: 50px 150px;
+}
+
+.main .title_main h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.main .title_main h2 {
+  font-size: 60px;
+}
+
+.main .title_main h4 {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.main .cta_main {
+  margin: 20px 0;
+}
+
+.main .cta_main .link_zap {
+  text-decoration: none;
+  color: #000;
+}
+
+.main .cta_main button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.main .cta_main .button {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  color: #fff;
+  background: linear-gradient(270deg, #3b81aa 0%, #0e5c88 100%);
+  border-radius: 8px;
+  border: none;
+  padding: 6px 14px;
+}
+
+.main .cta_main .button:hover {
+  transform: scale(1.03);
+  transition: all 150ms;
+}
+
+.main .cta_main p {
+  margin: 10px 0 0 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1370px) {
+  .main {
+    padding: 150px 0 80px 0px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .main {
+    background-size: contain;
+    padding: 120px 0 60px 0px;
+  }
+}

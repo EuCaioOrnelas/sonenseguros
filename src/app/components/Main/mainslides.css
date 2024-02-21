@@ -1,0 +1,9 @@
+.sectionSlideMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slidesMain {
+  width: 100vw;
+}

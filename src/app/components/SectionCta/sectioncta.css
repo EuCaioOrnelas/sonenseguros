@@ -1,0 +1,49 @@
+/* CTA SECTION */
+
+.cta_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  background: url(https://i.im.ge/2023/12/14/Eg0f2q.Background-slogan.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cta_section .content_cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
+
+.cta_section .content_cta p {
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.content_cta .button_cta_section {
+  border: solid 2px #fff;
+  border-radius: 8px;
+  padding: 6px 14px;
+}
+
+.content_cta .button_cta_section button {
+  background: none;
+  text-decoration: none;
+  font-style: none;
+  border: none;
+}
+
+.content_cta .button_cta_section a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.content_cta .button_cta_section:hover {
+  transform: scale(1.02);
+  transition: all 150ms;
+}

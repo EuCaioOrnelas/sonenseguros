@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: #0f0f0f;
+}
+
+.cover {
+  background-image: url(/background/cover-dashboard.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.sectionModules {
+  display: flex;
+  flex-direction: column;
+}
+.sectionModules .title {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,65 @@
+:root {
+  --swiper-theme-color: #0f68bb !important;
+  --swiper-pagination-color: var(--swiper-theme-color);
+  --swiper-pagination-bullet-inactive-color: #0f68bb;
+  --swiper-pagination-bullet-size: 10px;
+  --swiper-pagination-bullet-width: 10px;
+  --swiper-pagination-bullet-height: 10px;
+}
+
+.sectionNavigationSlider {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  max-width: 85%;
+}
+
+.sectionNavigationSlider i {
+  cursor: pointer;
+}
+
+.slide-button-prev,
+.slide-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+}
+
+.iconSlide,
+.buttonNavigationSlider {
+  color: #fff;
+}
+
+.slide {
+  max-width: 70%;
+}
+.slide .swiper-wrapper {
+  padding: 20px 0 60px 0;
+}
+.slide-button-next,
+.slide-button-prev {
+  color: #fff;
+  padding: 10px;
+  background: #0f68bb;
+}
+
+.card a {
+  padding: 6px;
+  display: block;
+}
+.card img {
+  border: 1px solid #2c2c2c;
+  border-radius: 9px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card img:hover {
+  border: 1px solid #0f68bb;
+  transform: scale(1.01);
+  transition: all 100ms;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+/* LOCALIZAÇÃO */
+.localizacao {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 70px 0;
+}
+
+.localizacao .text_localizacao {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.localizacao .text_localizacao h2 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+.localizacao .text_localizacao p {
+  font-size: 18px;
+}
+
+.localizacao .maps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0 10px 0;
+}
+
+.localizacao .maps iframe {
+  border-radius: 8px;
+  border: solid #000 2px;
+  width: 60%;
+  height: 500px;
+}
+
+.localizacao .descricao_localizacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.localizacao .descricao_localizacao p {
+  font-weight: 500;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,55 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px 20px;
+}
+
+.tittleTermos {
+  font-size: 18px;
+}
+
+.content {
+  margin-top: 70px;
+  width: 80vw;
+  padding: 40px;
+  border: solid 1px #00000018;
+  border-radius: 6px;
+}
+
+.content ul {
+  margin: 20px 0;
+}
+
+.content li {
+  margin: 6px 0;
+  margin-left: 30px;
+  list-style: disc;
+}
+
+@media (max-width: 800px) {
+  .tittleTermos {
+    font-size: 15px;
+  }
+  .content {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 580px) {
+  .content {
+    margin-top: 70px;
+    width: 80vw;
+    margin: 100 30px;
+    padding: 20px;
+    border: solid 1px #00000018;
+    border-radius: 6px;
+  }
+}
+
+@media (max-width: 450px) {
+  .tittleTermos {
+    font-size: 13px;
+  }
+}

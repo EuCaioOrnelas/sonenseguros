@@ -1,0 +1,82 @@
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_list_services {
+  width: 1240px;
+}
+
+.services .section_list_services .title_services p {
+  text-align: center;
+  font-size: 40px;
+  padding: 50px 0 50px 0;
+  letter-spacing: 2px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.services .section_list_services .title_services strong {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.list_services {
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.list_services ul {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.list_services ul li {
+  list-style: disc;
+  color: #000;
+}
+
+.title_services_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px;
+}
+
+.title_services_two h2 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+.title_services_two p {
+  font-size: 20px;
+}
+
+.title_services_two {
+  display: flex;
+  gap: 30px;
+}
+
+.section_cta_services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1360px) {
+  .services .section_list_services .title_services p {
+    font-size: 40px;
+  }
+}

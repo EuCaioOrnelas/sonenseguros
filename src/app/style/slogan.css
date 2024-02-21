@@ -1,0 +1,27 @@
+/* SLOGAN */
+.slogan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  background: url(https://i.im.ge/2023/12/14/Eg0f2q.Background-slogan.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slogan .content_slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.slogan .content_slogan p {
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.slogan .content_slogan img {
+  width: 40px;
+}

@@ -1,0 +1,245 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav .navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 10px 50px;
+}
+
+nav .navbar .logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .navbar .logo {
+  position: relative;
+  width: 200px;
+  height: 100px;
+}
+
+nav .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+nav .navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.navigation a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  padding: 5px;
+}
+
+.navigation a::after {
+  content: " ";
+  width: 0%;
+  height: 3px;
+  background-color: #000;
+  border-radius: 999px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.navigation a:hover::after {
+  width: 100%;
+}
+
+.buttonNavbar a {
+  color: #fff;
+  background: linear-gradient(270deg, #1985e9 0%, #0f68bb 100%);
+  border-radius: 8px;
+  padding: 6px 14px;
+  margin: 0 10px;
+}
+
+.buttonNavbar a {
+  color: #fff;
+  font-size: 24px;
+}
+.buttonNavbar:hover {
+  transform: scale(1.02);
+  transition: all 150ms;
+}
+
+.menuMobile {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  padding: 0 50px;
+}
+
+.navigationMobile {
+  display: none;
+  justify-content: end;
+  right: 0;
+  width: 100%;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.open {
+  display: flex;
+}
+
+.navigationMobile ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.navigationMobile ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 25px;
+  width: 250px;
+  margin: 30px 50px 0 0;
+  padding: 20px 30px;
+  background-color: #161616;
+  border: solid 2px #e6e6e6;
+  border-radius: 8px;
+
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.13);
+}
+
+.navigationMobile ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigationMobile ul li:hover {
+  transform: scale(1.03);
+  transition: all 100ms;
+}
+
+@media (max-width: 1000px) {
+  .navigation {
+    display: none;
+  }
+
+  .menuMobile {
+    display: flex;
+  }
+}
+
+@media (max-width: 780px) {
+  .navbar .logo {
+    position: relative;
+    width: 240px;
+    height: 45px;
+  }
+  .navbar {
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar .logo {
+    position: relative;
+    width: 200px;
+    height: 40px;
+  }
+  .navigationMobile {
+    justify-content: center;
+  }
+
+  .navigationMobile ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .navigationMobile ul {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    justify-content: space-around;
+    height: 60px;
+    z-index: 1;
+  }
+  .menu {
+    width: 25px;
+  }
+  .navbar .logo {
+    position: relative;
+    width: 160px;
+    height: 30px;
+  }
+  .navigationMobile {
+    justify-content: center;
+  }
+
+  .navigationMobile ul {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+  }
+}
+
+@media (max-width: 415px) {
+  .navbar {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    justify-content: space-around;
+    height: 60px;
+    z-index: 1;
+  }
+  .menu {
+    width: 25px;
+  }
+  .navbar .logo img {
+    width: 130px;
+  }
+  .navigationMobile {
+    justify-content: center;
+  }
+
+  .navigationMobile ul {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+  }
+}

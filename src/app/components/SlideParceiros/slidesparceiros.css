@@ -1,0 +1,17 @@
+.section_slide {
+  margin: 40px 400px 40px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1360px) {
+  .slide {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_slide {
+    margin: 40px 400px 40px 400px;
+  }
+}

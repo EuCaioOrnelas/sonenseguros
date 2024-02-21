@@ -1,0 +1,29 @@
+button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  color: #fff;
+  background: linear-gradient(270deg, #1985e9 0%, #0f68bb 100%);
+  border-radius: 8px;
+  border: none;
+  padding: 6px 14px;
+}
+
+.button:hover {
+  transform: scale(1.03);
+  transition: all 150ms;
+}
+
+a {
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+}

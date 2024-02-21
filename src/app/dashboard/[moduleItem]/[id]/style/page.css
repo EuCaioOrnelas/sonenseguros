@@ -1,0 +1,74 @@
+.background {
+  background-image: url(/background/background-video.png);
+  background-position: top;
+  background-repeat: repeat;
+  background-size: cover;
+  background-color: #0f0f0f;
+  padding-bottom: 100px;
+}
+
+.sectionVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.videoContent {
+  width: 1100px;
+}
+
+.title h1 {
+  color: #fff;
+  text-align: start;
+  font-size: 23px;
+  letter-spacing: 2px;
+  margin: 30px 0;
+  font-weight: 600;
+}
+
+.video iframe {
+  width: 100%;
+  height: 620px;
+  border: solid 1px #fff;
+  border-radius: 9px;
+}
+
+.transferClassRoom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px 0;
+}
+
+.previousClassRoom a,
+.nextClassRoom a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  font-size: 16px;
+  color: #fff;
+  background-color: #0f68bb;
+  border-radius: 9px;
+  padding: 8px 10px;
+}
+
+.previousClassRoom a:hover,
+.nextClassRoom a:hover {
+  transform: scale(1.02);
+  transition: all 100ms;
+  cursor: pointer;
+}
+
+.descript {
+  margin: 30px 0;
+  color: #fff;
+}
+
+.descript h3 {
+  padding: 12px 0;
+  letter-spacing: 2px;
+}

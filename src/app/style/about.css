@@ -1,0 +1,170 @@
+/* ABOUT */
+
+.about_title_one p {
+  text-align: center;
+  font-size: 40px;
+  margin: 40px 0 50px 0;
+  letter-spacing: 2px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.about_title_one p strong {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cards_about {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card_section1 {
+  display: flex;
+  gap: 130px;
+}
+
+.card_section2 {
+  display: flex;
+  gap: 130px;
+}
+
+.cards_about .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  width: 220px;
+  height: 200px;
+  padding: 30px 30px;
+  border-radius: 8px;
+  background: #f8f8f8;
+  box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cards_about .card .cardImage {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.cards_about .card p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* ABOUT SECTION TWO */
+
+.about_section_two {
+  background-image: url(/background/lines.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -50px 0 -50px 0;
+  padding: 0 120px;
+}
+
+.about_section {
+  display: flex;
+  align-items: center;
+}
+
+.about_section_two_text {
+  text-align: left;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about_section_two_text h2 {
+  font-size: 40px;
+}
+
+.about_section_two_text p {
+  font-size: 20px;
+  max-width: 500px;
+}
+
+.aboutImageTwo {
+  position: relative;
+  margin-top: 100px;
+  width: 800px;
+  height: 740px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1360px) {
+  .cards_about .card {
+    gap: 15px;
+    width: 200px;
+    height: 180px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    background: #f8f8f8;
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .cards_about .card img {
+    width: 40%;
+  }
+
+  .cards_about .card p {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  /* ABOUT SECTION TWO */
+
+  .about_section_two {
+    background-image: none;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 -50px 0;
+    padding: 0 120px;
+  }
+
+  .about_section {
+    display: flex;
+    align-items: center;
+  }
+
+  .about_section_two_text {
+    text-align: left;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 150px;
+  }
+
+  .about_section_two_text h2 {
+    font-size: 40px;
+  }
+
+  .about_section_two_text p {
+    font-size: 20px;
+    max-width: 500px;
+  }
+
+  .about_section_two_img img {
+    margin-top: 0;
+    margin-bottom: 70px;
+    width: 500px;
+  }
+}
