@@ -1,4 +1,5 @@
 import "./buttoncontacao.css";
+import styles from "../../Fontes.module.css";
 
 function ButtonCotacao() {
   return (

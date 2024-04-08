@@ -18,7 +18,6 @@
 }
 
 .cta_section .content_cta p {
-  font-size: 28px;
   color: #fff;
   letter-spacing: 2px;
 }
@@ -37,9 +36,11 @@
 }
 
 .content_cta .button_cta_section a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: #fff;
-  font-size: 22px;
   letter-spacing: 2px;
 }
 

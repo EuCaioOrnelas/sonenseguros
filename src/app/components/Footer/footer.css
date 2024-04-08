@@ -5,11 +5,7 @@ li {
 }
 
 footer {
-  background-image: url(/background/background-black-2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #000;
+  background-color: #0a0a0a;
   display: flex;
   align-items: center;
   justify-content: center;

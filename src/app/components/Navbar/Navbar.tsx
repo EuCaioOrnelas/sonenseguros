@@ -51,9 +51,9 @@ export default function Navbar() {
           <div className="buttonNavbar">
             <a href="https://forms.gle/Pd9k2XH4j86Q6qy26">Fazer Cotação</a>
           </div>
-        </div>
-        <div className="menuMobile" onClick={menuShow}>
-          <BiMenu size={40} className="menu" />
+          <div className="menuMobile" onClick={menuShow}>
+            <BiMenu size={40} className="menu" />
+          </div>
         </div>
       </nav>
       <div
@@ -66,13 +66,16 @@ export default function Navbar() {
             <a href="/">Inicio</a>
           </li>
           <li>
-            <a href="/#servicos">Serviços</a>
+            <a href="/#servicos">Fale Conosco</a>
           </li>
           <li>
             <a href="/#about">Sobre Nós</a>
           </li>
           <li>
-            <a href="/#contato">Fale Conosco</a>
+            <a href="/#contato">Seguros</a>
+          </li>
+          <li>
+            <a href="https://forms.gle/Pd9k2XH4j86Q6qy26">Fazer Cotação</a>
           </li>
         </ul>
       </div>

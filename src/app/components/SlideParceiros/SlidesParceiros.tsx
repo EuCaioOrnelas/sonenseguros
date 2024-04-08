@@ -25,6 +25,10 @@ const data = [
   { id: "9", image: "/seguradoras/tokio.png" },
   { id: "10", image: "/seguradoras/zurich.png" },
   { id: "11", image: "/seguradoras/suhai.png" },
+  { id: "12", image: "/seguradoras/darwin.png" },
+  { id: "13", image: "/seguradoras/sura.png" },
+  { id: "14", image: "/seguradoras/ezze.png" },
+  { id: "15", image: "/seguradoras/suica.png" },
 ];
 
 function SlideParceiros() {
@@ -32,7 +36,10 @@ function SlideParceiros() {
 
   useEffect(() => {
     function handleResize() {
-      if (window.innerWidth < 1360) {
+      if (window.innerWidth < 1650) {
+        setSlidePerView(3);
+      }
+      if (window.innerWidth < 900) {
         setSlidePerView(2);
       } else {
         setSlidePerView(4);
@@ -46,12 +53,7 @@ function SlideParceiros() {
     <>
       <div className="slide">
         <div className="section_slide">
-          <Swiper
-            spaceBetween={50}
-            slidesPerView={slidesPerView}
-            autoplay
-            pagination
-          >
+          <Swiper spaceBetween={50} slidesPerView={slidesPerView} autoplay>
             {data.map((item) => (
               <SwiperSlide key={item.id}>
                 <img

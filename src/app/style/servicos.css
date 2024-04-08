@@ -8,9 +8,9 @@
   width: 1240px;
 }
 
-.services .section_list_services .title_services p {
+.services .section_list_services .title_services h2 {
   text-align: center;
-  font-size: 40px;
+
   padding: 50px 0 50px 0;
   letter-spacing: 2px;
   font-weight: 500;
@@ -52,14 +52,9 @@
   margin: 80px;
 }
 
-.title_services_two h2 {
-  font-size: 40px;
-  letter-spacing: 4px;
+.title_services_two h3 {
+  letter-spacing: 2px;
   font-weight: 700;
-}
-
-.title_services_two p {
-  font-size: 20px;
 }
 
 .title_services_two {
@@ -76,7 +71,4 @@
 }
 
 @media (max-width: 1360px) {
-  .services .section_list_services .title_services p {
-    font-size: 40px;
-  }
 }

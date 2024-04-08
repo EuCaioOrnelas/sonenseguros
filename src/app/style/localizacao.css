@@ -13,13 +13,8 @@
 }
 
 .localizacao .text_localizacao h2 {
-  font-size: 40px;
   letter-spacing: 4px;
   font-weight: 700;
-}
-
-.localizacao .text_localizacao p {
-  font-size: 18px;
 }
 
 .localizacao .maps {

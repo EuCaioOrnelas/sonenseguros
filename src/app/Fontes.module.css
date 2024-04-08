@@ -1,0 +1,108 @@
+/* FONT SIZES */
+
+.subTitleCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.subTitleH3 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.subTitleH2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.subTitleH3CardBlue {
+  font-size: 20px;
+  color: #11a65f;
+  font-weight: 600;
+}
+
+.subTitleContent {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.paragraph {
+  font-size: 18px;
+}
+
+.fontButton {
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1000px) {
+  .subTitleH3 {
+    font-weight: 600;
+    font-size: 23px;
+    width: 600px;
+  }
+
+  .subTitleH2 {
+    font-weight: 600;
+    font-size: 33px;
+  }
+
+  .subTitleH3CardBlue {
+    font-size: 20px;
+    color: #11a65f;
+    font-weight: 600;
+  }
+
+  .subTitleH3Card {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .paragraph {
+    font-size: 17px;
+  }
+
+  .fontButton {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 600px) {
+  .subTitleH3 {
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .subTitleH2 {
+    font-weight: 600;
+    font-size: 28px;
+  }
+
+  .subTitleH3CardBlue {
+    font-size: 20px;
+    color: #11a65f;
+    font-weight: 500;
+  }
+
+  .subTitleH3Card {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .paragraph {
+    font-size: 16px;
+  }
+
+  .fontButton {
+    font-size: 15px;
+  }
+}

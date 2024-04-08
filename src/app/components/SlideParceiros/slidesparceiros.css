@@ -1,5 +1,5 @@
 .section_slide {
-  margin: 40px 400px 40px 400px;
+  margin: 40px 25% 40px 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +12,12 @@
   }
 
   .section_slide {
-    margin: 40px 400px 40px 400px;
+    margin: 40px 15% 40px 15%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section_slide {
+    margin: 40px 10% 40px 10%;
   }
 }

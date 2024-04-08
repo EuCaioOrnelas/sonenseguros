@@ -8,7 +8,7 @@ nav .navbar {
   width: 100vw;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 70px;
   padding: 10px 50px;
 }
 
@@ -20,8 +20,8 @@ nav .navbar .logoContainer {
 
 nav .navbar .logo {
   position: relative;
-  width: 200px;
-  height: 100px;
+  width: 140px;
+  height: 70px;
 }
 
 nav .navigation {
@@ -42,7 +42,7 @@ nav .navigation ul {
 .navigation a {
   color: #000;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   position: relative;
   padding: 5px;
@@ -66,7 +66,7 @@ nav .navigation ul {
 
 .buttonNavbar a {
   color: #fff;
-  background: linear-gradient(270deg, #1985e9 0%, #0f68bb 100%);
+  background-color: #0f68bb;
   border-radius: 8px;
   padding: 6px 14px;
   margin: 0 10px;
@@ -107,7 +107,7 @@ nav .navigation ul {
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
-  color: #000;
+  color: #fff;
 }
 
 .navigationMobile ul {
@@ -118,7 +118,7 @@ nav .navigation ul {
   width: 250px;
   margin: 30px 50px 0 0;
   padding: 20px 30px;
-  background-color: #161616;
+  background-color: #0f68bb;
   border: solid 2px #e6e6e6;
   border-radius: 8px;
 
@@ -140,8 +140,18 @@ nav .navigation ul {
 }
 
 @media (max-width: 1000px) {
-  .navigation {
+  nav .navigation,
+  .buttonNavbar {
     display: none;
+  }
+
+  nav .navbar {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 10px 50px;
   }
 
   .menuMobile {
@@ -198,7 +208,7 @@ nav .navigation ul {
     z-index: 1;
   }
   .menu {
-    width: 25px;
+    width: 35px;
   }
   .navbar .logo {
     position: relative;
@@ -227,7 +237,7 @@ nav .navigation ul {
     z-index: 1;
   }
   .menu {
-    width: 25px;
+    width: 35px;
   }
   .navbar .logo img {
     width: 130px;

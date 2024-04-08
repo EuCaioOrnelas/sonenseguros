@@ -1,8 +1,7 @@
 /* ABOUT */
 
-.about_title_one p {
+.about_title_one h2 {
   text-align: center;
-  font-size: 40px;
   margin: 40px 0 50px 0;
   letter-spacing: 2px;
   font-weight: 500;
@@ -11,7 +10,7 @@
   text-transform: uppercase;
 }
 
-.about_title_one p strong {
+.about_title_one h2 strong {
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -32,7 +31,7 @@
 
 .card_section2 {
   display: flex;
-  gap: 130px;
+  gap: 150px;
 }
 
 .cards_about .card {
@@ -41,7 +40,7 @@
   justify-content: center;
   align-items: center;
   gap: 23px;
-  width: 220px;
+  width: 200px;
   height: 200px;
   padding: 30px 30px;
   border-radius: 8px;
@@ -51,12 +50,11 @@
 
 .cards_about .card .cardImage {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .cards_about .card p {
-  font-size: 20px;
   text-align: center;
 }
 
@@ -87,12 +85,7 @@
   gap: 10px;
 }
 
-.about_section_two_text h2 {
-  font-size: 40px;
-}
-
 .about_section_two_text p {
-  font-size: 20px;
   max-width: 500px;
 }
 
@@ -121,7 +114,6 @@
   }
 
   .cards_about .card p {
-    font-size: 19px;
     text-align: center;
   }
 
@@ -153,18 +145,7 @@
     margin-bottom: 150px;
   }
 
-  .about_section_two_text h2 {
-    font-size: 40px;
-  }
-
   .about_section_two_text p {
-    font-size: 20px;
     max-width: 500px;
-  }
-
-  .about_section_two_img img {
-    margin-top: 0;
-    margin-bottom: 70px;
-    width: 500px;
   }
 }
