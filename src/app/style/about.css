@@ -26,7 +26,11 @@
 
 .card_section1 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 130px;
+  flex-wrap: wrap;
+  width: 70%;
 }
 
 .card_section2 {
@@ -97,6 +101,13 @@
 }
 
 /* RESPONSIVE */
+@media (max-width: 1500px) {
+  .card_section1 {
+    gap: 100px;
+
+    width: 75%;
+  }
+}
 
 @media (max-width: 1360px) {
   .cards_about .card {
@@ -115,6 +126,15 @@
 
   .cards_about .card p {
     text-align: center;
+  }
+
+  .card_section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    width: 80%;
   }
 
   /* ABOUT SECTION TWO */
@@ -147,5 +167,67 @@
 
   .about_section_two_text p {
     max-width: 500px;
+  }
+}
+
+@media (max-width: 1165px) {
+  .card_section1 {
+    gap: 100px;
+
+    width: 85%;
+  }
+}
+
+@media (max-width: 700px) {
+  .card_section1 {
+    gap: 100px;
+
+    width: 90%;
+  }
+  .cards_about .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    width: 150px;
+    height: 150px;
+    padding: 30px 30px;
+    border-radius: 8px;
+    background: #f8f8f8;
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .cards_about .card .cardImage {
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card_section1 {
+    gap: 100px;
+
+    width: 90%;
+  }
+  .cards_about .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    width: 140px;
+    height: 140px;
+    padding: 15px 15px;
+    border-radius: 8px;
+    background: #f8f8f8;
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .cards_about .card .cardImage {
+    position: relative;
+    width: 60px;
+    height: 60px;
   }
 }

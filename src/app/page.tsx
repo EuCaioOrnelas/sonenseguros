@@ -91,9 +91,6 @@ function Home() {
                 Garanta sua Tranquilidade Conosco....
               </p>
             </div>
-          </div>
-
-          <div className="card_section2">
             <div className="card">
               <div className="cardImage">
                 <Image src="/icons/star.png" fill alt="Coração" />
@@ -127,6 +124,8 @@ function Home() {
               </p>
             </div>
           </div>
+
+          <div className="card_section2"></div>
         </div>
       </div>
       <div className="about_section_two" id="about">

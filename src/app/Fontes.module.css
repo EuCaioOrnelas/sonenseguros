@@ -55,6 +55,10 @@
     font-size: 33px;
   }
 
+  .subTitleContent {
+    font-size: 19px;
+    font-weight: 500;
+  }
   .subTitleH3CardBlue {
     font-size: 20px;
     color: #11a65f;

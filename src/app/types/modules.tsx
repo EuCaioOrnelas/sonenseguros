@@ -38,6 +38,12 @@ const modules: ModuleList = [
     link: "",
     image: "/modulos/cotar-frotas/cotar-frotas.png",
   },
+  {
+    id: "cotando-no-quiver-max",
+    title: "Cotando no Quiver Max",
+    link: "/dashboard/cotando-no-quiver-max",
+    image: "/modulos/cotando-no-quiver-max/cotando-no-quiver-max.png",
+  },
 ];
 
 export default modules;
