@@ -261,7 +261,7 @@ function Home() {
           </p>
         </div>
         <div className="maps">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.983856381595!2d-52.053155312214315!3d-23.461046803416362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed284428c051bd%3A0xffb1bbd9b568287d!2sAv.%20Curitiba%2C%20300%20-%20Pai%C3%A7andu%2C%20PR%2C%2087140-000!5e0!3m2!1spt-BR!2sbr!4v1712542440005!5m2!1spt-BR!2sbr"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.983993488926!2d-52.05084852379107!3d-23.46104185791607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed29fccf3c10bf%3A0x2f45bcfcdfa505ea!2sSonen%20Corretora%20de%20Seguros!5e0!3m2!1spt-BR!2sbr!4v1713380742326!5m2!1spt-BR!2sbr"></iframe>
         </div>
         <div className="descricao_localizacao">
           <p className={styles.paragraph}>
