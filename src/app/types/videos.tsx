@@ -39,7 +39,7 @@ const videos: VideoList = [
     id: "como-cotar-caminhao-no-quiver-max",
     title: "Como Cotar Caminhão no Quiver Max",
     link: "/dashboard/cotando-no-quiver-max/como-cotar-caminhao-no-quiver-max",
-    image: "/modulos/cotando-no-quiver-max/aula-como-cotar-caminhao.png",
+    image: "/modulos/cotando-no-quiver-max/aula-cotando-seguro-caminhao.png",
     video: "https://www.youtube.com/embed/9uQOdz7UGnc?si=DFug8Che5bfc7HRo",
     descricao:
       "Nesse video você aprenderá o passo a passo para cotar um seguro de caminhões dentro do Quiver Max, nosso sistema interno de calculo.",
