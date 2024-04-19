@@ -58,7 +58,6 @@
 }
 
 .card img:hover {
-  border: 1px solid #0f68bb;
   transform: scale(1.01);
   transition: all 100ms;
   cursor: pointer;
